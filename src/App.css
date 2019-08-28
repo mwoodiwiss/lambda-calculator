@@ -1,0 +1,81 @@
+.container {
+    background-color: red;
+    margin: 0 auto;
+    width: 470px;
+    padding: 20px;
+    border-radius: 2rem;
+  }
+  
+  .logo-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 45%;
+    padding: 15px;
+  }
+  .logo {
+    width: 75%;
+  }
+  .display {
+    width: 93%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: 5rem;
+    margin-top: 5px;
+    padding: 15px;
+    border-radius: 5rem;
+    height: 10rem;
+  }
+  .App {
+    width: 93%;
+    margin: 0 auto;
+    display: flex;
+    padding-bottom: 20px;
+
+  }
+  .specials {
+    width: 30%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;    
+    flex-direction: column;
+  }
+  
+  .numButtons {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .numButtons button:nth-last-child(2) {
+    width: 66%;
+  }
+  
+  button {
+    width: 28%;
+    height: 80px;
+    font-size: 3rem;
+    border-radius: 5rem;
+    margin-top: 18px;
+    color: white;
+    box-shadow: 1px 5px black;
+  }
+  
+  .opButtons button {
+   width: 70%;
+   background-color: teal;
+  }
+  
+  .specials button {
+    width: 100%;
+    background-color: blue;
+  }
+  
+  .numButtons button {
+    background-color: darkblue;
+  } 
